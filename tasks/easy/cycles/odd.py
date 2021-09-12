@@ -22,6 +22,7 @@ def odd_in_list(some_list: list) -> list:
     for i in some_list:
         if type(i) == int and i % 2 == 0:
             odd_list.append(i)
+        continue
     return odd_list
 
 
