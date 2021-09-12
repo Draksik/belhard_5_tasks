@@ -47,9 +47,9 @@ def is_valid(check_string: str) -> bool:
     :rtype: bool
     """
     if not iskeyword(check_string) and check_string.isidentifier():
-        return  True
+        return True
     else:
-        return  False
+        return False
 
 
 if __name__ == '__main__':
